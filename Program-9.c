@@ -11,6 +11,7 @@ int main()
 //Initialize the pointer variable
   printf("Enter the value:");
   scanf("%d",&var);
+  ptr=&var;
   printf("value=%d",*ptr);
   return 0;
 }
